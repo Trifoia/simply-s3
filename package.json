@@ -1,10 +1,10 @@
 {
   "name": "simply-s3",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Powerful and easy to use S3 CLI ",
   "main": "index.js",
   "bin": {
-    "simplys3": "simplys3.js"
+    "simplys3": "bin/simplys3.js"
   },
   "directories": {
     "lib": "lib"
