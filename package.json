@@ -1,0 +1,32 @@
+{
+  "name": "simply-s3",
+  "version": "0.0.0",
+  "description": "Powerful and easy to use S3 CLI ",
+  "main": "index.js",
+  "bin": {
+    "simplys3": "simplys3.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trifoia/simply-s3.git"
+  },
+  "author": "Trifoia <webapps@trifoia.com> (trifoia.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Trifoia/simply-s3/issues"
+  },
+  "homepage": "https://github.com/Trifoia/simply-s3#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.349.0"
+  }
+}

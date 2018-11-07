@@ -1,0 +1,5 @@
+templates/
+node_modules/
+build/
+
+lib/utils/text-extensions/
