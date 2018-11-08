@@ -15,6 +15,11 @@ const Args = require('../lib/utils/args.js');
   // Process and validate arguments
   const args = new Args(process.argv);
 
+  if (args.args.length === 0) {
+    // No arguments were provided - give the help text
+    args.args[0] = 'help';
+  }
+
   try {
     await args.validate();
   } catch (e) {
