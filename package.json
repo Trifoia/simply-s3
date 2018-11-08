@@ -1,6 +1,6 @@
 {
   "name": "simply-s3",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Powerful and easy to use S3 CLI ",
   "main": "index.js",
   "bin": {
